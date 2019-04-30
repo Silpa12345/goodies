@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="57dp"
+        android:onClick="launchCollectActivity"
+        android:text="Collect Food" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="143dp"
+        android:onClick="launchDonateActivity"
+        android:text="donate Food" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+
+        android:onClick="launchEnterActivity"
+        android:text="Enter Person Details" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="32dp"
+        android:onClick="goToMap"
+        android:text="search nearby" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="31dp"
+        android:onClick="launchRemoveActivity"
+        android:text="Remove person details" />
+
+
+</RelativeLayout>
